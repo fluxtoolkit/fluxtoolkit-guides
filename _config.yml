@@ -4,5 +4,6 @@ url: "https://fluxtoolkit.github.io"
 baseurl: "/fluxtoolkit-guides"
 theme: minima
 future: true
+google_site_verification: "GHzVG0AWlCbFLMUllhO1rf57oThTu6cDxa9qbZAGLxs"
 plugins:
   - jekyll-seo-tag
