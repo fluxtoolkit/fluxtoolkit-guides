@@ -3,6 +3,9 @@ layout: home
 title: FluxToolkit Guides
 ---
 
-Welcome to the official guides, tutorials, and listicles for developers, writers, and SEO experts. All tools featured in these articles are powered by [FluxToolkit.com](https://fluxtoolkit.com) — completely free, private, and browser-based online tools.
-
-Explore our latest articles and embeddable widgets below:
+<div class="hero-section">
+  <h1 class="hero-title">FluxToolkit Guides</h1>
+  <p class="hero-subtitle">
+    Welcome to the official guides, tutorials, and listicles for developers, writers, and SEO experts. All tools featured in these articles are powered by <a href="https://fluxtoolkit.com" style="color: #3b82f6; text-decoration: none; font-weight: 600;">FluxToolkit.com</a>.
+  </p>
+</div>

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+  {{ content }}
+
+  {% if site.posts.size > 0 %}
+    <h2 class="post-list-heading" style="margin-top: 3rem; margin-bottom: 1.5rem; font-weight: 700;">Latest Guides & Tutorials</h2>
+    <ul class="post-grid">
+      {% for post in site.posts %}
+        <li class="post-card">
+          <span class="post-card-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+          <h3 class="post-card-title">
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          <div class="post-card-excerpt">
+            {{ post.excerpt | strip_html | truncatewords: 25 }}
+          </div>
+          <a href="{{ post.url | relative_url }}" class="post-card-readmore">Read Article &rarr;</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
