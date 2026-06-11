@@ -3,6 +3,7 @@ description: Official guides, tutorials, and listicles for developers, writers, 
 url: "https://fluxtoolkit.github.io"
 baseurl: "/fluxtoolkit-guides"
 theme: minima
+permalink: /:title/
 future: true
 google_site_verification: "GHzVG0AWlCbFLMUllhO1rf57oThTu6cDxa9qbZAGLxs"
 plugins:
