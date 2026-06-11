@@ -41,9 +41,9 @@ Email clients (like Outlook or Gmail) are notoriously strict and often block ext
 When you do encounter a valid use case for Base64 encoding, you should never upload your private, unreleased UI assets to a server-side encoder that might log your files. Use a client-side encoder.
 
 ### Step 1: Open the Base64 Encoder
-Use the interactive widget embedded below, or navigate to the full [Base64 Image Encoder](https://fluxtoolkit.com/base64-image-encoder) on FluxToolkit for a larger drag-and-drop workspace.
+Use the interactive widget embedded below, or navigate to the full [Base64 Image Encoder](https://fluxtoolkit.com/image-to-base64) on FluxToolkit for a larger drag-and-drop workspace.
 
-<iframe src="https://fluxtoolkit.com/embed/base64-image-encoder" width="100%" height="650" style="border:1px solid #ccc; border-radius:8px; background-color:#fff;" allowfullscreen></iframe>
+<iframe src="https://fluxtoolkit.com/embed/image-to-base64" width="100%" height="650" style="border:1px solid #ccc; border-radius:8px; background-color:#fff;" allowfullscreen></iframe>
 <p style="text-align:center; font-size:12px; margin-top:5px;">Powered by <a href="https://fluxtoolkit.com" target="_blank" rel="dofollow">FluxToolkit</a></p>
 
 ### Step 2: Select Your Asset

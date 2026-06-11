@@ -44,9 +44,9 @@ Once the AI has synthesized the document, export the structured notes into your 
 With your summary complete, you must immediately convert those concepts into active recall mechanisms. Do not wait until the week of the exam. 
 
 ### Step 1: Access the Flashcard Generator
-Use the widget below or visit the dedicated [AI Flashcard Generator](https://fluxtoolkit.com/flashcard-generator).
+Use the widget below or visit the dedicated [AI Flashcard Generator](https://fluxtoolkit.com/ai-flashcard-generator).
 
-<iframe src="https://fluxtoolkit.com/embed/flashcard-generator" width="100%" height="650" style="border:1px solid #ccc; border-radius:8px; background-color:#fff;" allowfullscreen></iframe>
+<iframe src="https://fluxtoolkit.com/embed/ai-flashcard-generator" width="100%" height="650" style="border:1px solid #ccc; border-radius:8px; background-color:#fff;" allowfullscreen></iframe>
 <p style="text-align:center; font-size:12px; margin-top:5px;">Powered by <a href="https://fluxtoolkit.com" target="_blank" rel="dofollow">FluxToolkit</a></p>
 
 ### Step 2: Input the Source Material

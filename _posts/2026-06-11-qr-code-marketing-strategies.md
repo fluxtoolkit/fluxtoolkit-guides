@@ -45,9 +45,9 @@ Once the design is finalized, click the download button to export the code as a 
 One of the highest-friction moments for a retail or hospitality business is a customer asking, "What is the WiFi password?" and then struggling to type a complex string of characters. You can eliminate this friction entirely by generating a specialized WiFi QR code.
 
 ### Step 1: Open the WiFi Tool
-Use the widget below or visit the dedicated [WiFi QR Code Generator](https://fluxtoolkit.com/wifi-qr-code-generator).
+Use the widget below or visit the dedicated [WiFi QR Code Generator](https://fluxtoolkit.com/free-wifi-qr-code-generator).
 
-<iframe src="https://fluxtoolkit.com/embed/wifi-qr-code-generator" width="100%" height="650" style="border:1px solid #ccc; border-radius:8px; background-color:#fff;" allowfullscreen></iframe>
+<iframe src="https://fluxtoolkit.com/embed/free-wifi-qr-code-generator" width="100%" height="650" style="border:1px solid #ccc; border-radius:8px; background-color:#fff;" allowfullscreen></iframe>
 <p style="text-align:center; font-size:12px; margin-top:5px;">Powered by <a href="https://fluxtoolkit.com" target="_blank" rel="dofollow">FluxToolkit</a></p>
 
 ### Step 2: Enter Network Credentials
