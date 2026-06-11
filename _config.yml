@@ -3,5 +3,6 @@ description: Official guides, tutorials, and listicles for developers, writers, 
 url: "https://fluxtoolkit.github.io"
 baseurl: "/fluxtoolkit-guides"
 theme: minima
+future: true
 plugins:
   - jekyll-seo-tag
