@@ -1,6 +1,6 @@
 ---
 layout: home
-title: FluxToolkit Guides
+title: "Free Developer & SEO Tools Tutorials"
 ---
 
 <div class="hero-section">
