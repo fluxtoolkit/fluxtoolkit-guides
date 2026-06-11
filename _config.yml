@@ -1,0 +1,7 @@
+title: FluxToolkit Guides
+description: Official guides, tutorials, and listicles for developers, writers, and SEO experts using the free tools at FluxToolkit.com.
+url: "https://fluxtoolkit.github.io"
+baseurl: "/fluxtoolkit-guides"
+theme: minima
+plugins:
+  - jekyll-seo-tag
