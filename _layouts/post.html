@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <!-- Related Guides SEO Block for Internal Linking -->
+  <div class="related-posts" style="margin-top: 60px; padding: 30px; background-color: #f8f9fa; border-radius: 12px; border: 1px solid #e2e8f0;">
+    <h3 style="margin-top: 0; margin-bottom: 20px; font-weight: bold; color: #0f172a;">📚 Read More Guides</h3>
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6;">
+      {% for related_post in site.related_posts limit:3 %}
+        <li style="margin-bottom: 10px;">
+          <a href="{{ related_post.url | relative_url }}" style="color: #2563eb; text-decoration: none; font-weight: 500;">
+            {{ related_post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+{% include faq_schema.html %}

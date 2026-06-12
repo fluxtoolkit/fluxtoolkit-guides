@@ -3,6 +3,17 @@ layout: post
 title: "How to Study Smarter with AI PDF Tools in 2026"
 date: 2026-06-11 16:00:00 -0000
 categories: pdf guides
+faqs:
+  - question: "What is the difference between FSRS and SM-2 algorithms?"
+    answer: "SM-2 (SuperMemo-2) is the legacy algorithm that powered older flashcard apps. FSRS (Free Spaced Repetition Scheduler) is a modern, mathematically superior algorithm that optimizes the review intervals much more efficiently, often resulting in 20-30% fewer reviews required to achieve the same level of retention."
+  - question: "Does AI summarizing a PDF count as plagiarism?"
+    answer: "No, summarizing a document for your own personal study notes is entirely ethical and does not constitute plagiarism. However, directly copying an AI-generated summary and pasting it into an essay submission is an academic integrity violation at almost all universities."
+  - question: "Can AI extract data from scanned, image-only PDFs?"
+    answer: "Standard text-parsing AI cannot read scanned images. To process a scanned document, the tool must first run it through Optical Character Recognition (OCR) software to convert the image pixels into machine-readable text before the AI can summarize it."
+  - question: "Why does the AI sometimes invent facts not in my PDF?"
+    answer: "This is known as a \"hallucination.\" It happens when the AI relies on its baseline training data to fill in gaps in its understanding. To prevent this, always explicitly prompt the tool with strict grounding instructions: \"Answer using ONLY the information provided in the attached document.\""
+  - question: "What is the best way to study math or physics PDFs?"
+    answer: "Math and physics require procedural problem solving, not just rote memorization. AI summaries are less effective here. Instead, use AI to generate endless variations of practice problems based on the formulas provided in the PDF, forcing you to actively apply the concepts."
 ---
 
 You are staring at a 150-page academic PDF on macroeconomic policy. The midterm is in three days, and reading every single page line-by-line is mathematically impossible. Historically, students handled this by skimming the introduction, highlighting random paragraphs in yellow, and praying they absorbed enough context to pass. The result? Hours of passive reading with almost zero long-term retention. 
@@ -89,20 +100,11 @@ If an AI generates a flashcard with a paragraph of text on the back, your brain 
 
 ## Frequently Asked Questions (FAQ)
 
-### What is the difference between FSRS and SM-2 algorithms?
-SM-2 (SuperMemo-2) is the legacy algorithm that powered older flashcard apps. FSRS (Free Spaced Repetition Scheduler) is a modern, mathematically superior algorithm that optimizes the review intervals much more efficiently, often resulting in 20-30% fewer reviews required to achieve the same level of retention.
+{% for faq in page.faqs %}
+### {{ faq.question }}
+{{ faq.answer }}
 
-### Does AI summarizing a PDF count as plagiarism?
-No, summarizing a document for your own personal study notes is entirely ethical and does not constitute plagiarism. However, directly copying an AI-generated summary and pasting it into an essay submission is an academic integrity violation at almost all universities.
-
-### Can AI extract data from scanned, image-only PDFs?
-Standard text-parsing AI cannot read scanned images. To process a scanned document, the tool must first run it through Optical Character Recognition (OCR) software to convert the image pixels into machine-readable text before the AI can summarize it.
-
-### Why does the AI sometimes invent facts not in my PDF?
-This is known as a "hallucination." It happens when the AI relies on its baseline training data to fill in gaps in its understanding. To prevent this, always explicitly prompt the tool with strict grounding instructions: "Answer using ONLY the information provided in the attached document."
-
-### What is the best way to study math or physics PDFs?
-Math and physics require procedural problem solving, not just rote memorization. AI summaries are less effective here. Instead, use AI to generate endless variations of practice problems based on the formulas provided in the PDF, forcing you to actively apply the concepts.
+{% endfor %}
 
 ## Transform Your Academic Workflow Today
 
